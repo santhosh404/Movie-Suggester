@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    margin:30px;
+    background:#eee;
+    font-family: 'Poppins', sans-serif !important;
+}
+.mynav{
+background-color: #e5e5e5;
+}
+
+.Title{
+font-size: 20px;
+font-weight: bolder;
+}
+.Genre{
+font-size: 16px;
+font-weight: bold;
+text-transform:lowercase;
+
+
+}
+
+.Description{
+font-size: 15px;
+font-weight: lighter;
+text-align: justify;
+
+
+}
+
+.director{
+font-size: 13px;
+float: left;
+}
+.direct-name{
+font-size: 13px;
+float: left;
+padding-left:5px
+}
+.Rating{
+font-size: 13px;
+position: absolute;
+right: 30px;
+color: green;
+font-weight: bold;
+}
+.Rating-rate{
+font-size: 13px;
+float: right;
+color: green;
+font-weight: bold;
+
+}
+.card{
+box-shadow: 10px 11px 3px 0px rgba(194,185,185,0.51);
+-webkit-box-shadow: 10px 11px 3px 0px rgba(194,185,185,0.51);
+-moz-box-shadow: 10px 11px 3px 0px rgba(194,185,185,0.51);;
+}
+
+.card:hover{
+transform: scale(1.1);
+}
+
+.filter1{
+    width: 10%;
+    background-color: #eee;
+    float: right;
+    margin: 15px;
+}
+.filter2{
+    width: 10%;
+    background-color: #eee;
+    float: right;
+}
+.filters{
+    display: block;
+}
